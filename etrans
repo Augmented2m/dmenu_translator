@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "" | dmenu | trans | dtrans_io | dmenu -l 100
