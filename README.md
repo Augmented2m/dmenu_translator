@@ -2,10 +2,11 @@
 A translator with dmenu interface
 
 ## Installation
-Install git.io/trans and gawk with
+Install git.io/trans, gawk and dmenu with
 ```
 sudo apt install gawk -y
 wget git.io/trans
+sudo apt install suckless-tools
 ```
 Make the file `trans` executable if necessary and put somewhere in `$PATH`.
 
